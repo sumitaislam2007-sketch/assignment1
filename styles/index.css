@@ -11,7 +11,7 @@ html{
     background-color: #F1F1F3;
 }
 .border {
-    /* border: 2px solid red; */
+    /* border: 1px solid burlywood; */
 }
 
 .semi-header {
@@ -27,9 +27,21 @@ html{
     border-radius: 8px;
     padding: 17px 34px;
 }
+.blue{
+    background-color: #5490F5;
+}
+.green{
+    background-color: #09A15C;
+}
+.yellow{
+    background-color: #FFC239;
+}
 
 .margin {
     margin: 80px 100px;
+}
+.margin-top{
+    margin-top: 14px;
 }
 
 .section-header {
@@ -121,6 +133,37 @@ nav li a {
     border-radius: 16px;
     padding: 12px 24px 24px 24px;
 }
-.pillar p{
-    margin-top: 12px;
+/* future style */
+.future{
+    height: 765px;
+}
+.future-card-container{
+    margin: 32px 0px;
+    display: flex;
+    gap: 24px;
+}
+.future-card{
+    border: none;
+    border-radius: 16px;
+    padding: 32px;
+}
+.future-card p{
+    margin: 20px 0px;
+}
+.card1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.card2{
+    background-color: #C6E4D6;
+}
+.card3{
+    background-color: #F7EBCF;
+}
+.yunus{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat; 
+    padding: 48px 24px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    height: 180px;
 }

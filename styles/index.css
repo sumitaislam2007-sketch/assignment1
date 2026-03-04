@@ -1,28 +1,58 @@
 /* font-family: "Fira Sans", sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
+    font-family: Fira Sans;
 }
 /* shared style */
-.semi-header{
+html{
+    background-color: #F1F1F3;
+}
+.border {
+    /* border: 2px solid red; */
+}
+
+.semi-header {
     font-weight: bold;
     font-size: 32px;
     color: #0E0E0E;
 }
-.btn-primary{
+
+.btn-primary {
     color: #FFFFFF;
     background-color: #006A50;
     border: none;
     border-radius: 8px;
     padding: 17px 34px;
 }
-/* hero-section */
-.hero{
-    margin: 24px 100px 80px 100px;
-    font-family: Fira Sans;
+
+.margin {
+    margin: 80px 100px;
 }
-.hero-section{
+
+.section-header {
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.card-header {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0E0E0E;
+}
+
+.card-description {
+    font-size: 16;
+    color: rgba(14, 14, 14, 0.7);
+}
+/* hero-section */
+.hero {
+    margin: 24px 100px 0px 100px;
+}
+
+.hero-section {
     display: flex;
     gap: 40px;
     background-color: #C6E4D6;
@@ -30,17 +60,21 @@
     margin-top: 45px;
     height: 500px;
 }
-.hero ul{
+
+.hero ul {
     display: flex;
     justify-content: space-between;
 }
-nav li{
+
+nav li {
     list-style: none;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
 }
-.nav-btn{
+
+.nav-btn {
     color: #006A50;
     font-weight: 600;
     font-size: 18px;
@@ -48,20 +82,45 @@ nav li a{
     border-radius: 8px;
     padding: 10px 30px;
 }
-.hero-content{
+
+.hero-content {
     padding: 117px 0px 117px 60px;
 }
-.hero-img{
+
+.hero-img {
     margin-top: 80px;
     margin-bottom: 100px;
 }
-.hero-content p{
+
+.hero-content p {
     font-size: 24px;
     font-weight: 500px;
     color: rgba(14, 14, 14, 0.5);
 }
-.hero-header{
+
+.hero-header {
     font-size: 56px;
     font-weight: bold;
     color: #0E0E0E;
+}
+
+/* pillars style */
+.pillars {
+    height: 324px;
+}
+
+.pillars-col-container {
+    height: 244px;
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.pillar {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 12px 24px 24px 24px;
+}
+.pillar p{
+    margin-top: 12px;
 }

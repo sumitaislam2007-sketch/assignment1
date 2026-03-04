@@ -198,3 +198,15 @@ nav li a {
     font-weight: 500;
     color: #0E0E0E;
 }
+/* news style */
+.news-content{
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 24px;
+}
+.news-content img{
+    border-radius: 24px;
+}

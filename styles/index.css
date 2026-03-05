@@ -233,3 +233,28 @@ nav li a {
     margin: 32px 0px;
     border: none;
 }
+/* subscribe style */
+.subscribe{
+    text-align: center;
+    background-color: #C6E4D6;
+    border: none;
+    border-radius: 24px;
+    height: 390px;
+}
+.subscribe-content{
+    padding: 80px 200px;
+}
+.subscribe-box input{
+    flex: 1;
+    padding: 10px 400px 10px 40px;
+    border: 1px solid #ccc;
+    border-right: none;
+    outline: none;
+}
+.subscribe-box button {
+  padding: 10px 20px;
+  border: 1px solid #0f5132;
+  background: #006A50;
+  color: white;
+  cursor: pointer;
+}

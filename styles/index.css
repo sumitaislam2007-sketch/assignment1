@@ -258,3 +258,21 @@ nav li a {
   color: white;
   cursor: pointer;
 }
+/* footer style */
+footer{
+    height: 250px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.footer-container{
+    padding: 50px 240px;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 32px;
+}
+footer hr{
+    color: rgba(14, 14, 14, 0.1);
+    width: 800px;
+    margin: 32px 0px;
+}
